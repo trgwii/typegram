@@ -1,5 +1,5 @@
-import { Integer, String } from "./alias";
-import { User } from "./manage";
+import { Integer, String } from "./alias.d.ts";
+import { User } from "./manage.d.ts";
 
 /** This object represents a portion of the price for goods or services. */
 export interface LabeledPrice {

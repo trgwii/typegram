@@ -1,8 +1,8 @@
-import { Boolean, Float, Integer, String, True } from "./alias";
-import { InlineKeyboardMarkup } from "./inline";
-import { Chat, User } from "./manage";
-import { PassportData } from "./passport";
-import { Invoice, SuccessfulPayment } from "./payment";
+import { Boolean, Float, Integer, String, True } from "./alias.d.ts";
+import { InlineKeyboardMarkup } from "./inline.d.ts";
+import { Chat, User } from "./manage.d.ts";
+import { PassportData } from "./passport.d.ts";
+import { Invoice, SuccessfulPayment } from "./payment.d.ts";
 
 export namespace Message {
   interface ServiceMessage {

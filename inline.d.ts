@@ -1,6 +1,6 @@
-import { Boolean, Float, Integer, String } from "./alias";
-import { User } from "./manage";
-import { Location, MessageEntity, ParseMode } from "./message";
+import { Boolean, Float, Integer, String } from "./alias.d.ts";
+import { User } from "./manage.d.ts";
+import { Location, MessageEntity, ParseMode } from "./message.d.ts";
 
 /** This object represents an incoming inline query. When the user sends an empty query, your bot could return some default or trending results. */
 export interface InlineQuery {

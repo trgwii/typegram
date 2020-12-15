@@ -1,5 +1,5 @@
-import { Boolean, Integer, String, True } from "./alias";
-import { Message, PhotoSize } from "./message";
+import { Boolean, Integer, String, True } from "./alias.d.ts";
+import { Message, PhotoSize } from "./message.d.ts";
 
 /** Contains information about the current status of a webhook. */
 export interface WebhookInfo {
@@ -255,7 +255,7 @@ export interface ChatPermissions {
 /** Represents a location to which a chat is connected. */
 export interface ChatLocation {
   /** The location to which the supergroup is connected. Can't be a live location. */
-  location: Location;
+  location: URL;
   /** Location address; 1-64 characters, as defined by the chat owner */
   address: String;
 }

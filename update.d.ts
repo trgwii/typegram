@@ -1,9 +1,9 @@
-import { Integer, String } from "./alias";
-import { CallbackQuery } from "./callback";
-import { ChosenInlineResult, InlineQuery } from "./inline";
-import { Chat, User } from "./manage";
-import { Message, Poll, PollAnswer } from "./message";
-import { PreCheckoutQuery, ShippingQuery } from "./payment";
+import { Integer, String } from "./alias.d.ts";
+import { CallbackQuery } from "./callback.d.ts";
+import { ChosenInlineResult, InlineQuery } from "./inline.d.ts";
+import { Chat, User } from "./manage.d.ts";
+import { Message, Poll, PollAnswer } from "./message.d.ts";
+import { PreCheckoutQuery, ShippingQuery } from "./payment.d.ts";
 
 export namespace Update {
   /** Internal type holding properties that updates in channels share. */

@@ -1,10 +1,10 @@
-import { Boolean, Float, Integer, String, True } from "./alias";
+import { Boolean, Float, Integer, String, True } from "./alias.d.ts";
 import {
   ForceReply,
   ReplyKeyboardMarkup,
   ReplyKeyboardRemove,
-} from "./callback";
-import { InlineKeyboardMarkup, InlineQueryResult } from "./inline";
+} from "./callback.d.ts";
+import { InlineKeyboardMarkup, InlineQueryResult } from "./inline.d.ts";
 import {
   BotCommand,
   ChatFromGetChat,
@@ -14,7 +14,7 @@ import {
   UserFromGetMe,
   UserProfilePhotos,
   WebhookInfo,
-} from "./manage";
+} from "./manage.d.ts";
 import {
   GameHighScore,
   MaskPosition,
@@ -24,10 +24,10 @@ import {
   ParseMode,
   Poll,
   StickerSet,
-} from "./message";
-import { PassportElementError } from "./passport";
-import { LabeledPrice, ShippingOption } from "./payment";
-import { Update } from "./update";
+} from "./message.d.ts";
+import { PassportElementError } from "./passport.d.ts";
+import { LabeledPrice, ShippingOption } from "./payment.d.ts";
+import { Update } from "./update.d.ts";
 
 /** Extracts the parameters of a given method name */
 type Params<M extends keyof Typegram<F>["Telegram"], F> = Parameters<

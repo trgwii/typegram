@@ -1,4 +1,4 @@
-import { Integer, String } from "./alias";
+import { Integer, String } from "./alias.d.ts";
 
 /** Contains information about Telegram Passport data shared with the bot by the user. */
 export interface PassportData {

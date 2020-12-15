@@ -1,6 +1,6 @@
-import { Boolean, String, True } from "./alias";
-import { User } from "./manage";
-import { Message } from "./message";
+import { Boolean, String, True } from "./alias.d.ts";
+import { User } from "./manage.d.ts";
+import { Message } from "./message.d.ts";
 
 /** This object represents a custom keyboard with reply options (see Introduction to bots for details and examples). */
 export interface ReplyKeyboardMarkup {
