@@ -1,4 +1,5 @@
 export * from "./alias.d.ts";
+export * from "./api.d.ts";
 export * from "./callback.d.ts";
 export * from "./default.d.ts";
 export * from "./inline.d.ts";
